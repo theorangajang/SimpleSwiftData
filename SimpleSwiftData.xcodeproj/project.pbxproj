@@ -9,12 +9,23 @@
 /* Begin PBXBuildFile section */
 		19D7E8422B7BEE3400799814 /* SimpleSwiftDataApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D7E8412B7BEE3400799814 /* SimpleSwiftDataApp.swift */; };
 		19D7E8442B7BEE3400799814 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D7E8432B7BEE3400799814 /* ContentView.swift */; };
-		19D7E8462B7BEE3400799814 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D7E8452B7BEE3400799814 /* Item.swift */; };
 		19D7E8482B7BEE3600799814 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19D7E8472B7BEE3600799814 /* Assets.xcassets */; };
 		19D7E84B2B7BEE3600799814 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19D7E84A2B7BEE3600799814 /* Preview Assets.xcassets */; };
 		19D7E8552B7BEE3600799814 /* SimpleSwiftDataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D7E8542B7BEE3600799814 /* SimpleSwiftDataTests.swift */; };
 		19D7E85F2B7BEE3600799814 /* SimpleSwiftDataUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D7E85E2B7BEE3600799814 /* SimpleSwiftDataUITests.swift */; };
 		19D7E8612B7BEE3600799814 /* SimpleSwiftDataUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D7E8602B7BEE3600799814 /* SimpleSwiftDataUITestsLaunchTests.swift */; };
+		19D7E86F2B7C092400799814 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D7E86E2B7C092400799814 /* Card.swift */; };
+		19D7E8712B7C093800799814 /* SampleDeck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D7E8702B7C093800799814 /* SampleDeck.swift */; };
+		19D7E8742B7C097100799814 /* CardCarousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D7E8732B7C097100799814 /* CardCarousel.swift */; };
+		19D7E8762B7C098600799814 /* CardContainerScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D7E8752B7C098600799814 /* CardContainerScreen.swift */; };
+		19D7E8782B7C099F00799814 /* CardEditorScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D7E8772B7C099F00799814 /* CardEditorScreen.swift */; };
+		19D7E87A2B7C09BD00799814 /* CardGalleryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D7E8792B7C09BD00799814 /* CardGalleryItem.swift */; };
+		19D7E87C2B7C09D100799814 /* CardGallery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D7E87B2B7C09D100799814 /* CardGallery.swift */; };
+		19D7E87E2B7C09E600799814 /* CardReaderScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D7E87D2B7C09E600799814 /* CardReaderScreen.swift */; };
+		19D7E8802B7C09FD00799814 /* EditorToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D7E87F2B7C09FD00799814 /* EditorToolbar.swift */; };
+		19D7E8822B7C0A0C00799814 /* FlashCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D7E8812B7C0A0C00799814 /* FlashCard.swift */; };
+		19D7E8852B7C0A2E00799814 /* Design.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D7E8842B7C0A2E00799814 /* Design.swift */; };
+		19D7E8872B7C0AE800799814 /* HorizontalFlip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D7E8862B7C0AE800799814 /* HorizontalFlip.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +49,6 @@
 		19D7E83E2B7BEE3400799814 /* SimpleSwiftData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleSwiftData.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		19D7E8412B7BEE3400799814 /* SimpleSwiftDataApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleSwiftDataApp.swift; sourceTree = "<group>"; };
 		19D7E8432B7BEE3400799814 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		19D7E8452B7BEE3400799814 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		19D7E8472B7BEE3600799814 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		19D7E84A2B7BEE3600799814 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		19D7E8502B7BEE3600799814 /* SimpleSwiftDataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleSwiftDataTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -46,6 +56,18 @@
 		19D7E85A2B7BEE3600799814 /* SimpleSwiftDataUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleSwiftDataUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		19D7E85E2B7BEE3600799814 /* SimpleSwiftDataUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleSwiftDataUITests.swift; sourceTree = "<group>"; };
 		19D7E8602B7BEE3600799814 /* SimpleSwiftDataUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleSwiftDataUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		19D7E86E2B7C092400799814 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		19D7E8702B7C093800799814 /* SampleDeck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleDeck.swift; sourceTree = "<group>"; };
+		19D7E8732B7C097100799814 /* CardCarousel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCarousel.swift; sourceTree = "<group>"; };
+		19D7E8752B7C098600799814 /* CardContainerScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardContainerScreen.swift; sourceTree = "<group>"; };
+		19D7E8772B7C099F00799814 /* CardEditorScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardEditorScreen.swift; sourceTree = "<group>"; };
+		19D7E8792B7C09BD00799814 /* CardGalleryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardGalleryItem.swift; sourceTree = "<group>"; };
+		19D7E87B2B7C09D100799814 /* CardGallery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardGallery.swift; sourceTree = "<group>"; };
+		19D7E87D2B7C09E600799814 /* CardReaderScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardReaderScreen.swift; sourceTree = "<group>"; };
+		19D7E87F2B7C09FD00799814 /* EditorToolbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditorToolbar.swift; sourceTree = "<group>"; };
+		19D7E8812B7C0A0C00799814 /* FlashCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashCard.swift; sourceTree = "<group>"; };
+		19D7E8842B7C0A2E00799814 /* Design.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Design.swift; sourceTree = "<group>"; };
+		19D7E8862B7C0AE800799814 /* HorizontalFlip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalFlip.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,9 +118,10 @@
 		19D7E8402B7BEE3400799814 /* SimpleSwiftData */ = {
 			isa = PBXGroup;
 			children = (
+				19D7E8832B7C0A2600799814 /* Utils */,
+				19D7E8722B7C094300799814 /* Views */,
+				19D7E86D2B7C091D00799814 /* Models */,
 				19D7E8412B7BEE3400799814 /* SimpleSwiftDataApp.swift */,
-				19D7E8432B7BEE3400799814 /* ContentView.swift */,
-				19D7E8452B7BEE3400799814 /* Item.swift */,
 				19D7E8472B7BEE3600799814 /* Assets.xcassets */,
 				19D7E8492B7BEE3600799814 /* Preview Content */,
 			);
@@ -128,6 +151,40 @@
 				19D7E8602B7BEE3600799814 /* SimpleSwiftDataUITestsLaunchTests.swift */,
 			);
 			path = SimpleSwiftDataUITests;
+			sourceTree = "<group>";
+		};
+		19D7E86D2B7C091D00799814 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				19D7E86E2B7C092400799814 /* Card.swift */,
+				19D7E8702B7C093800799814 /* SampleDeck.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		19D7E8722B7C094300799814 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				19D7E8432B7BEE3400799814 /* ContentView.swift */,
+				19D7E8732B7C097100799814 /* CardCarousel.swift */,
+				19D7E8752B7C098600799814 /* CardContainerScreen.swift */,
+				19D7E8772B7C099F00799814 /* CardEditorScreen.swift */,
+				19D7E8792B7C09BD00799814 /* CardGalleryItem.swift */,
+				19D7E87B2B7C09D100799814 /* CardGallery.swift */,
+				19D7E87D2B7C09E600799814 /* CardReaderScreen.swift */,
+				19D7E87F2B7C09FD00799814 /* EditorToolbar.swift */,
+				19D7E8812B7C0A0C00799814 /* FlashCard.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		19D7E8832B7C0A2600799814 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				19D7E8842B7C0A2E00799814 /* Design.swift */,
+				19D7E8862B7C0AE800799814 /* HorizontalFlip.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,9 +317,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19D7E87E2B7C09E600799814 /* CardReaderScreen.swift in Sources */,
+				19D7E8782B7C099F00799814 /* CardEditorScreen.swift in Sources */,
+				19D7E87A2B7C09BD00799814 /* CardGalleryItem.swift in Sources */,
 				19D7E8442B7BEE3400799814 /* ContentView.swift in Sources */,
-				19D7E8462B7BEE3400799814 /* Item.swift in Sources */,
+				19D7E8802B7C09FD00799814 /* EditorToolbar.swift in Sources */,
+				19D7E87C2B7C09D100799814 /* CardGallery.swift in Sources */,
+				19D7E8822B7C0A0C00799814 /* FlashCard.swift in Sources */,
+				19D7E8742B7C097100799814 /* CardCarousel.swift in Sources */,
 				19D7E8422B7BEE3400799814 /* SimpleSwiftDataApp.swift in Sources */,
+				19D7E8712B7C093800799814 /* SampleDeck.swift in Sources */,
+				19D7E8872B7C0AE800799814 /* HorizontalFlip.swift in Sources */,
+				19D7E8852B7C0A2E00799814 /* Design.swift in Sources */,
+				19D7E86F2B7C092400799814 /* Card.swift in Sources */,
+				19D7E8762B7C098600799814 /* CardContainerScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
